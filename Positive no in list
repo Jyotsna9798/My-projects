@@ -1,4 +1,9 @@
-list1 = [11, -21, 0, 45, 46, -93]
-for num in list1:
-    if num >= 0:
-       print(num, end = " ")
+lst = []
+n= int(input ("enter no of elements : "))
+for i in range (0,n):
+ ele=int(input ())
+ lst.append(ele)
+print (lst)
+for i in lst:
+ if i>=0:
+  print (i,end=" ")
